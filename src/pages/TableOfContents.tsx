@@ -47,132 +47,196 @@ const TableOfContents: FunctionComponent = () => {
               <b className={styles.components1}>Components</b>
             </div>
             <div className={styles.bodyContainer}>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Badges</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Bottom app bars</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Bottom sheets</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Buttons</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Cards</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Carousel</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Checkboxes</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Chips</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Date picker</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Dialogs</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Dividers</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>
-                  Floating action buttons (FAB)
+              <a href="/badges">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Badges</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
                 </div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Icon buttons</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Lists</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Menus</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Navigation bars</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Navigation drawer</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Navigation rail</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Progress indicators</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Radio buttons</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Search</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Segmented buttons: outlined</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Side Sheets</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Sliders</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Snackbars</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Switch</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Tabs</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Text fields</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Time picker</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Tooltips</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
-              <div className={styles.linkToComponents}>
-                <div className={styles.badges}>Top app bars</div>
-                <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
-              </div>
+              </a>
+              <a href="/bottom-app-bars">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Bottom app bars</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/bottom-sheets">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Bottom sheets</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/buttons">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Buttons</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/cards">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Cards</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/carousel">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Carousel</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/checkboxes">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Checkboxes</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/chips">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Chips</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/date-picker">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Date picker</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/dialogs">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Dialogs</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/dividers">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Dividers</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/fabs">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>
+                    Floating action buttons (FAB)
+                  </div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/icon-buttons">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Icon buttons</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/lists">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Lists</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/menu">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Menus</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/navigation-bars">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Navigation bars</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/navigation-drawer">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Navigation drawer</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/navigation-rails">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Navigation rail</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/progress-indicators">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Progress indicators</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/radio-buttons">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Radio buttons</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/search">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Search</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/segmented-buttons">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>
+                    Segmented buttons: outlined
+                  </div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/side-sheets">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Side Sheets</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/sliders">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Sliders</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/snackbars">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Snackbars</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/switch">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Switch</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/tabs">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Tabs</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/text-fields">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Text fields</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/time-picker">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Time picker</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/tooltips">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Tooltips</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
+              <a href="/top-app-bars">
+                <div className={styles.linkToComponents}>
+                  <div className={styles.badges}>Top app bars</div>
+                  <img className={styles.arrowIcon} alt="" src="/arrow.svg" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
