@@ -1,0 +1,345 @@
+.logoIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+.componentName,
+.link,
+.logoIcon {
+  position: relative;
+}
+.link {
+  font-size: var(--m3-headline-small-size);
+  text-decoration: underline;
+  line-height: 2rem;
+  color: var(--m3-sys-light-primary);
+}
+.definition {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 1.5rem;
+  text-align: left;
+}
+.header,
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.header {
+  background-color: var(--m3-sys-dark-on-surface);
+  width: 72.75rem;
+  overflow: hidden;
+  padding: var(--padding-33xl) var(--padding-33xl) var(--padding-51xl);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+}
+.iconsmenu24px {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.stateLayer {
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.container,
+.leadingIcon,
+.stateLayer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: row;
+}
+.leadingIcon {
+  width: 3rem;
+  height: 3rem;
+  flex-direction: column;
+}
+.headline {
+  flex: 1;
+  position: relative;
+  line-height: 1.75rem;
+}
+.configurationsmallCentered {
+  background-color: var(--m3-sys-light-surface);
+  width: 25.75rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-9xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  text-align: center;
+}
+.configurationsmallElevation,
+.trailingIcon1 {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.configurationsmallElevation {
+  background-color: var(--m3-sys-light-surface);
+  width: 25.75rem;
+  height: 4rem;
+  padding: var(--padding-5xs) var(--padding-9xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.leadingTrailingIcons,
+.trailingIcon4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.leadingTrailingIcons {
+  align-self: stretch;
+  padding: var(--padding-5xs) var(--padding-9xs) 0;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.headline3 {
+  position: relative;
+  line-height: 2rem;
+}
+.headline2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.configurationmediumElevatio {
+  background-color: var(--m3-sys-light-surface);
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-5xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--m3-headline-small-size);
+}
+.headline5 {
+  position: relative;
+  line-height: 2.25rem;
+}
+.configurationlargeElevation {
+  background-color: var(--m3-sys-light-surface);
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-9xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  font-size: var(--m3-headline-medium-size);
+}
+.configurationsmallCentered1,
+.configurationsmallElevation1 {
+  background-color: var(--m3-sys-light-surface-container);
+  width: 25.75rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-9xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.configurationsmallCentered1 {
+  gap: var(--gap-7xs);
+  text-align: center;
+}
+.configurationsmallElevation1 {
+  gap: var(--gap-9xs);
+}
+.configurationlargeElevation1,
+.configurationmediumElevatio1,
+.topAppBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.configurationmediumElevatio1 {
+  background-color: var(--m3-sys-light-surface-container);
+  padding: 0 0 var(--padding-5xl);
+  gap: var(--gap-9xs);
+  font-size: var(--m3-headline-small-size);
+}
+.configurationlargeElevation1,
+.topAppBar {
+  gap: var(--gap-21xl);
+}
+.configurationlargeElevation1 {
+  background-color: var(--m3-sys-light-surface-container);
+  padding: 0 0 var(--padding-9xl);
+  font-size: var(--m3-headline-medium-size);
+}
+.topAppBar {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-surface);
+  overflow: hidden;
+  padding: var(--padding-xl);
+}
+.configurationsmallCentered2,
+.lightScheme {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.lightScheme {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-surface);
+  border: 1px solid var(--m3-sys-dark-on-surface-variant);
+  width: 30.75rem;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  align-items: flex-start;
+}
+.configurationsmallCentered2 {
+  background-color: var(--m3-sys-dark-surface);
+  width: 25.75rem;
+  height: 4rem;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-9xs);
+  align-items: center;
+  gap: var(--gap-7xs);
+  text-align: center;
+}
+.configurationlargeElevation2,
+.configurationmediumElevatio2,
+.configurationsmallElevation2 {
+  background-color: var(--m3-sys-dark-surface);
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.configurationsmallElevation2 {
+  width: 25.75rem;
+  height: 4rem;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-9xs);
+  box-sizing: border-box;
+  align-items: center;
+}
+.configurationlargeElevation2,
+.configurationmediumElevatio2 {
+  flex-direction: column;
+  padding: 0 0 var(--padding-5xl);
+  align-items: flex-start;
+  font-size: var(--m3-headline-small-size);
+}
+.configurationlargeElevation2 {
+  padding: 0 0 var(--padding-9xl);
+  gap: var(--gap-21xl);
+  font-size: var(--m3-headline-medium-size);
+}
+.configurationsmallCentered3 {
+  background-color: var(--m3-sys-dark-surface-container);
+  width: 25.75rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-9xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  text-align: center;
+}
+.configurationlargeElevation3,
+.configurationmediumElevatio3,
+.configurationsmallElevation3 {
+  background-color: var(--m3-sys-dark-surface-container);
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.configurationsmallElevation3 {
+  width: 25.75rem;
+  height: 4rem;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-9xs);
+  box-sizing: border-box;
+  align-items: center;
+}
+.configurationlargeElevation3,
+.configurationmediumElevatio3 {
+  flex-direction: column;
+  padding: 0 0 var(--padding-5xl);
+  align-items: flex-start;
+  font-size: var(--m3-headline-small-size);
+}
+.configurationlargeElevation3 {
+  padding: 0 0 var(--padding-9xl);
+  gap: var(--gap-21xl);
+  font-size: var(--m3-headline-medium-size);
+}
+.darkScheme,
+.topAppBarDark {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-dark-surface);
+  flex-direction: column;
+  padding: var(--padding-xl);
+  justify-content: flex-start;
+}
+.topAppBarDark {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+}
+.darkScheme {
+  width: 30.75rem;
+  box-sizing: border-box;
+  color: var(--m3-sys-dark-on-surface);
+}
+.components,
+.darkScheme,
+.topAppBars {
+  display: flex;
+  align-items: flex-start;
+}
+.components {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-51xl);
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--m3-title-large-size);
+  color: var(--m3-sys-light-on-surface);
+}
+.topAppBars {
+  position: relative;
+  border-radius: var(--br-41xl) var(--br-41xl) var(--br-base) var(--br-base);
+  background-color: var(--m3-sys-light-on-error);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--m3-black);
+  font-family: var(--m3-headline-medium);
+}

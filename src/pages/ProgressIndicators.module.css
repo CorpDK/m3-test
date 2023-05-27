@@ -1,0 +1,227 @@
+.logoIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+.componentName,
+.link,
+.logoIcon {
+  position: relative;
+}
+.link {
+  font-size: var(--m3-headline-small-size);
+  text-decoration: underline;
+  line-height: 2rem;
+  color: var(--m3-sys-light-primary);
+}
+.definition {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 1.5rem;
+  text-align: left;
+}
+.header,
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.header {
+  background-color: var(--m3-sys-dark-on-surface);
+  overflow: hidden;
+  padding: var(--padding-33xl) var(--padding-33xl) var(--padding-51xl);
+  gap: var(--gap-41xl);
+}
+.progressBar,
+.progressBar1,
+.progressBar2,
+.progressBar3 {
+  position: absolute;
+  height: 100%;
+  width: 25%;
+  top: 0;
+  right: 75%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--m3-sys-light-primary);
+}
+.progressBar1,
+.progressBar2,
+.progressBar3 {
+  width: 50%;
+  right: 50%;
+}
+.progressBar2,
+.progressBar3 {
+  width: 75%;
+  right: 25%;
+}
+.progressBar3 {
+  width: 100%;
+  right: 0;
+}
+.pixel {
+  position: relative;
+  width: 0.06rem;
+  height: 0.25rem;
+}
+.progressBar4 {
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 0;
+  background-color: var(--m3-sys-light-primary);
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-46xl);
+  align-items: center;
+  justify-content: center;
+}
+.progresscustomAdvanced {
+  position: relative;
+  background-color: var(--m3-sys-dark-on-surface);
+  width: 17.5rem;
+  height: 0.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.linearProgressIndicator {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-surface);
+  border: 1px solid var(--m3-sys-dark-on-surface-variant);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-21xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.progress25Icon {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+}
+.circularProgressIndicator,
+.lightScheme {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.circularProgressIndicator {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-surface);
+  border: 1px solid var(--m3-sys-dark-on-surface-variant);
+  flex-direction: row;
+  padding: var(--padding-21xl);
+  gap: var(--gap-5xl);
+}
+.lightScheme {
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.progressBar5 {
+  position: absolute;
+  height: 100%;
+  width: 25%;
+  top: 0;
+  right: 75%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--m3-sys-dark-primary);
+}
+.progress251 {
+  position: relative;
+  background-color: var(--m3-sys-dark-surface-container-highest);
+  width: 17.5rem;
+  height: 0.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.progressBar6 {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top: 0;
+  right: 50%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--m3-sys-dark-primary);
+}
+.progressBar7 {
+  height: 100%;
+  width: 75%;
+  top: 0;
+  right: 25%;
+  bottom: 0;
+}
+.progressBar7,
+.progressBar8,
+.progressBar9 {
+  position: absolute;
+  left: 0;
+  background-color: var(--m3-sys-dark-primary);
+}
+.progressBar8 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.progressBar9 {
+  top: calc(50% - 2px);
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-46xl);
+  align-items: center;
+  justify-content: center;
+}
+.circularProgressIndicatorDa,
+.linearProgressIndicatorDark {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-dark-surface);
+  padding: var(--padding-21xl);
+}
+.linearProgressIndicatorDark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.circularProgressIndicatorDa {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.circularProgressIndicatorDa,
+.components,
+.progressIndicators {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.components {
+  flex-direction: row;
+  padding: var(--padding-51xl);
+  gap: var(--gap-21xl);
+}
+.progressIndicators {
+  position: relative;
+  border-radius: var(--br-41xl) var(--br-41xl) var(--br-base) var(--br-base);
+  background-color: var(--m3-sys-light-on-error);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--m3-black);
+  font-family: var(--m3-headline-medium);
+}

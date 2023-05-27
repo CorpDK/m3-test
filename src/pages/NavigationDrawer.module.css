@@ -1,0 +1,536 @@
+.logoIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+.componentName,
+.link,
+.logoIcon {
+  position: relative;
+}
+.link {
+  font-size: var(--m3-headline-small-size);
+  text-decoration: underline;
+  line-height: 2rem;
+  color: var(--m3-sys-light-primary);
+}
+.definition {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 1.5rem;
+  text-align: left;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.header,
+.title,
+.title1 {
+  align-self: stretch;
+}
+.header {
+  background-color: var(--m3-sys-dark-on-surface);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-33xl) var(--padding-33xl) var(--padding-51xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+}
+.title1 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.headline {
+  align-self: stretch;
+  height: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+}
+.label {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.badgeLabelText,
+.label1 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+.label1 {
+  flex: 1;
+}
+.badgeLabelText {
+  text-align: right;
+}
+.navItem1,
+.stateLayer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.stateLayer {
+  flex: 1;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-base);
+  gap: var(--gap-xs);
+}
+.navItem1 {
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-secondary-container);
+  height: 3.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--m3-sys-light-on-secondary-container);
+}
+.badgeLabelText1,
+.label2 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.label2 {
+  flex: 1;
+}
+.badgeLabelText1 {
+  text-align: right;
+}
+.navItem2 {
+  align-self: stretch;
+  border-radius: var(--br-81xl);
+  height: 3.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.divider {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--m3-sys-dark-on-surface-variant);
+  box-sizing: border-box;
+  height: 0.06rem;
+}
+.divider1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-base);
+  align-items: flex-start;
+  justify-content: center;
+}
+.badgeLabelText4 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 1.25rem;
+  font-weight: 500;
+  text-align: right;
+  display: none;
+}
+.navigationDrawer1 {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-surface-container-low);
+  width: 22.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label13 {
+  position: relative;
+  font-size: var(--m3-title-medium-size);
+  letter-spacing: 0.1px;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: var(--m3-black);
+  text-align: center;
+}
+.buildingBlocksSectionHead,
+.styleinactiveStateenabled {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.buildingBlocksSectionHead {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-base);
+  align-items: center;
+}
+.styleinactiveStateenabled {
+  width: 17.13rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+}
+.stateLayer11,
+.styleinactiveStateenabled,
+.styleinactiveStatehovered {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.stateLayer11 {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--m3-state-layers-light-on-surface-opacity-008);
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-base);
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.styleinactiveStatehovered {
+  border-radius: var(--br-81xl);
+  width: 17.13rem;
+  height: 3.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.stateLayer12,
+.styleactiveStateenabledS {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.stateLayer12 {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--m3-state-layers-light-on-surface-opacity-012);
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-base);
+  gap: var(--gap-xs);
+}
+.styleactiveStateenabledS {
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-secondary-container);
+  width: 17.13rem;
+  height: 3.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--m3-sys-light-on-secondary-container);
+}
+.stateLayer15 {
+  background-color: var(
+    --m3-state-layers-light-on-secondary-container-opacity-008
+  );
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-base);
+}
+.stateLayer15,
+.stateLayer16,
+.stateLayer18,
+.stateLayer19,
+.stateLayer20,
+.stateLayer23,
+.stateLayer24 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.stateLayer16 {
+  background-color: var(
+    --m3-state-layers-light-on-secondary-container-opacity-012
+  );
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-base);
+}
+.stateLayer18,
+.stateLayer19,
+.stateLayer20,
+.stateLayer23,
+.stateLayer24 {
+  padding: var(--padding-base) var(--padding-5xl);
+}
+.stateLayer19,
+.stateLayer20,
+.stateLayer23,
+.stateLayer24 {
+  background-color: var(--m3-state-layers-light-on-surface-opacity-008);
+}
+.stateLayer20,
+.stateLayer23,
+.stateLayer24 {
+  background-color: var(--m3-state-layers-light-on-surface-opacity-012);
+}
+.stateLayer23,
+.stateLayer24 {
+  background-color: var(
+    --m3-state-layers-light-on-secondary-container-opacity-008
+  );
+}
+.stateLayer24 {
+  background-color: var(
+    --m3-state-layers-light-on-secondary-container-opacity-012
+  );
+}
+.buildingBlocks,
+.buildingBlocksNavItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buildingBlocksNavItem {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-surface-container-low);
+  padding: var(--padding-xl);
+  gap: var(--gap-10xl);
+}
+.buildingBlocks {
+  border-radius: var(--br-8xs);
+  gap: var(--gap-13xl);
+}
+.lightScheme,
+.navItem11 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lightScheme {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-surface);
+  border: 1px solid var(--m3-sys-dark-on-surface-variant);
+  box-sizing: border-box;
+  width: 30rem;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  gap: var(--gap-21xl);
+}
+.navItem11 {
+  align-self: stretch;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-secondary-container);
+  height: 3.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  color: var(--m3-sys-dark-on-secondary-container);
+}
+.divider4 {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--m3-sys-light-on-surface-variant);
+  box-sizing: border-box;
+  height: 0.06rem;
+}
+.navigationDrawerDark {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-on-surface);
+  width: 24rem;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label44 {
+  position: relative;
+  font-size: var(--m3-title-medium-size);
+  letter-spacing: 0.1px;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: var(--m3-sys-light-on-error);
+  text-align: center;
+}
+.stateLayer37,
+.stateLayer38 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-base);
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.stateLayer37 {
+  background-color: var(--m3-state-layers-dark-on-surface-opacity-008);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.stateLayer38 {
+  background-color: var(--m3-state-layers-dark-on-surface-opacity-012);
+}
+.stateLayer38,
+.stateLayer41,
+.styleactiveStateenabledS2 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.styleactiveStateenabledS2 {
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-secondary-container);
+  width: 17.13rem;
+  height: 3.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  color: var(--m3-sys-dark-on-secondary-container);
+}
+.stateLayer41 {
+  flex: 1;
+  background-color: var(
+    --m3-state-layers-dark-on-secondary-container-opacity-008
+  );
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-base);
+  gap: var(--gap-xs);
+}
+.stateLayer41,
+.stateLayer42,
+.stateLayer45 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.stateLayer42 {
+  flex: 1;
+  background-color: var(
+    --m3-state-layers-dark-on-secondary-container-opacity-012
+  );
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-base);
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.stateLayer45 {
+  background-color: var(--m3-state-layers-dark-on-surface-opacity-008);
+}
+.stateLayer45,
+.stateLayer46,
+.stateLayer49 {
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.stateLayer46 {
+  align-self: stretch;
+  background-color: var(--m3-state-layers-dark-on-surface-opacity-012);
+  display: flex;
+  align-items: center;
+}
+.stateLayer49 {
+  background-color: var(
+    --m3-state-layers-dark-on-secondary-container-opacity-008
+  );
+}
+.buildingBlocksNavItemDar,
+.stateLayer49,
+.stateLayer50 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.stateLayer50 {
+  flex: 1;
+  background-color: var(
+    --m3-state-layers-dark-on-secondary-container-opacity-012
+  );
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.buildingBlocksNavItemDar {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-on-surface);
+  flex-direction: column;
+  padding: var(--padding-xl);
+  justify-content: center;
+  gap: var(--gap-10xl);
+}
+.buildingBlocksDark,
+.darkScheme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buildingBlocksDark {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  gap: var(--gap-13xl);
+}
+.darkScheme {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-dark-surface);
+  width: 30rem;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  color: var(--m3-sys-dark-on-surface-variant);
+}
+.components,
+.navigationDrawer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.components {
+  flex-direction: row;
+  padding: var(--padding-51xl);
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--m3-label-large-prominent-size);
+  color: var(--m3-sys-light-on-surface-variant);
+}
+.navigationDrawer {
+  position: relative;
+  border-radius: var(--br-41xl) var(--br-41xl) var(--br-base) var(--br-base);
+  background-color: var(--m3-sys-light-on-error);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--m3-black);
+  font-family: var(--m3-headline-medium);
+}

@@ -1,0 +1,129 @@
+.logoIcon {
+  position: relative;
+  width: 3.1rem;
+  height: 3.1rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.build {
+  margin: 0;
+}
+.buildBeautifulProductsContainer {
+  position: relative;
+  font-size: 3.5rem;
+}
+.personal {
+  position: relative;
+}
+.devicesShouldFeel {
+  position: relative;
+  font-size: var(--m3-title-medium-size);
+  letter-spacing: 0.5px;
+  line-height: 1.5rem;
+  display: inline-block;
+  width: 32.6rem;
+}
+.headerBodyCopy,
+.modularDesignPrinciples {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.24rem;
+}
+.modularDesignPrinciples {
+  gap: 4.49rem;
+}
+.components {
+  position: relative;
+  text-transform: uppercase;
+  display: none;
+  opacity: 0.6;
+}
+.components1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  text-transform: capitalize;
+  color: var(--m3-sys-light-on-surface);
+}
+.headerContainer {
+  background-color: var(--m3-sys-dark-on-surface);
+  width: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-17xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.badges {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: 0.08px;
+}
+.arrowIcon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bodyContainer,
+.linkToComponents {
+  display: flex;
+  justify-content: flex-start;
+}
+.linkToComponents {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.31rem;
+}
+.bodyContainer {
+  align-self: stretch;
+  background-color: var(--m3-sys-light-surface);
+  flex-direction: column;
+  padding: var(--padding-17xl);
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--m3-headline-small-size);
+  color: var(--m3-sys-light-on-surface);
+}
+.systemOverviewCard {
+  border-radius: 24px;
+  border: 1px solid var(--m3-sys-dark-on-surface-variant);
+  overflow: hidden;
+}
+.column,
+.systemOverviewCard,
+.systemOverviewCardContainer,
+.tableOfContents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.systemOverviewCardContainer,
+.tableOfContents {
+  flex-direction: row;
+}
+.systemOverviewCardContainer {
+  align-self: stretch;
+  font-size: var(--m3-title-medium-size);
+  color: var(--m3-sys-light-on-surface-variant);
+}
+.tableOfContents {
+  position: relative;
+  border-radius: var(--br-41xl) var(--br-41xl) var(--br-base) var(--br-base);
+  background-color: var(--m3-sys-light-on-error);
+  width: 100%;
+  overflow: hidden;
+  padding: var(--padding-81xl) 10rem;
+  box-sizing: border-box;
+  gap: 10rem;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--m3-sys-light-on-surface);
+  font-family: var(--m3-headline-medium);
+}

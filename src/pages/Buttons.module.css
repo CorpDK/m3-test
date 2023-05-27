@@ -1,0 +1,1633 @@
+.logoIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+.componentName,
+.link,
+.logoIcon {
+  position: relative;
+}
+.link {
+  font-size: var(--m3-headline-small-size);
+  text-decoration: underline;
+  line-height: 2rem;
+  color: var(--m3-sys-light-primary);
+}
+.definition {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 1.5rem;
+  text-align: left;
+}
+.header,
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.header {
+  background-color: var(--m3-sys-dark-on-surface);
+  overflow: hidden;
+  padding: var(--padding-33xl) var(--padding-33xl) var(--padding-51xl);
+  gap: var(--gap-41xl);
+}
+.icon {
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+}
+.labelText {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 1.25rem;
+  font-weight: 500;
+  opacity: 0.38;
+}
+.stateLayer,
+.styletonalStatedisabledS {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer {
+  background-color: var(--m3-state-layers-light-on-surface-opacity-012);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.styletonalStatedisabledS {
+  position: absolute;
+  top: 50.5rem;
+  left: 35.75rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  color: var(--m3-sys-light-on-surface);
+}
+.labelText1 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.stateLayer1 {
+  background-color: var(
+    --m3-state-layers-light-on-secondary-container-opacity-012
+  );
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.styletonalStatepressedSh {
+  position: absolute;
+  top: 50.5rem;
+  left: 27.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-secondary-container);
+  overflow: hidden;
+  color: var(--m3-sys-light-on-secondary-container);
+}
+.stateLayer3,
+.styletonalStatefocusedSh,
+.styletonalStatepressedSh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.styletonalStatefocusedSh {
+  position: absolute;
+  top: 50.5rem;
+  left: 19.13rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-secondary-container);
+  overflow: hidden;
+  color: var(--m3-sys-light-on-secondary-container);
+}
+.stateLayer3 {
+  background-color: var(
+    --m3-state-layers-light-on-secondary-container-opacity-008
+  );
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.styletonalStatehoveredSh {
+  position: absolute;
+  top: 50.5rem;
+  left: 10.75rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-secondary-container);
+  box-shadow: var(--m3-elevation-light-1);
+  overflow: hidden;
+  color: var(--m3-sys-light-on-secondary-container);
+}
+.stateLayer4,
+.styletonalStateenabledSh,
+.styletonalStatehoveredSh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer4 {
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.styletonalStateenabledSh {
+  position: absolute;
+  top: 50.5rem;
+  left: 2.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-secondary-container);
+  overflow: hidden;
+  color: var(--m3-sys-light-on-secondary-container);
+}
+.stateLayer5 {
+  background-color: var(--m3-state-layers-light-on-surface-opacity-012);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.stateLayer5,
+.stateLayer6,
+.styletonalStatedisabledS1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styletonalStatedisabledS1 {
+  position: absolute;
+  top: 47rem;
+  left: 34.44rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-light-on-surface);
+}
+.stateLayer6 {
+  background-color: var(
+    --m3-state-layers-light-on-secondary-container-opacity-012
+  );
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.styletonalStatepressedSh1 {
+  position: absolute;
+  top: 47rem;
+  left: 26.56rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-secondary-container);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-light-on-secondary-container);
+}
+.stateLayer8,
+.styletonalStatefocusedSh1,
+.styletonalStatepressedSh1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styletonalStatefocusedSh1 {
+  position: absolute;
+  top: 47rem;
+  left: 18.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-secondary-container);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-light-on-secondary-container);
+}
+.stateLayer8 {
+  background-color: var(
+    --m3-state-layers-light-on-secondary-container-opacity-008
+  );
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.styletonalStatehoveredSh1 {
+  position: absolute;
+  top: 47rem;
+  left: 10.38rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-secondary-container);
+  box-shadow: var(--m3-elevation-light-1);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-light-on-secondary-container);
+}
+.stateLayer9,
+.styletonalStateenabledSh1,
+.styletonalStatehoveredSh1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer9 {
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.styletonalStateenabledSh1 {
+  position: absolute;
+  top: 47rem;
+  left: 2.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-secondary-container);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-light-on-secondary-container);
+}
+.stateLayer10 {
+  background-color: var(--m3-state-layers-light-on-surface-opacity-012);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.stateLayer11,
+.styleelevatedStatedisabled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.styleelevatedStatedisabled {
+  position: absolute;
+  top: 39.75rem;
+  left: 35.75rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  color: var(--m3-sys-light-on-surface);
+}
+.stateLayer11 {
+  background-color: var(--m3-state-layers-light-primary-opacity-012);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.styleelevatedStatepressed {
+  position: absolute;
+  top: 39.75rem;
+  left: 27.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-surface-container-low);
+  box-shadow: var(--m3-elevation-light-1);
+  overflow: hidden;
+}
+.stateLayer13,
+.styleelevatedStatefocused,
+.styleelevatedStatepressed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.styleelevatedStatefocused {
+  position: absolute;
+  top: 39.75rem;
+  left: 19.13rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-surface-container-low);
+  box-shadow: var(--m3-elevation-light-1);
+  overflow: hidden;
+}
+.stateLayer13 {
+  background-color: var(--m3-state-layers-light-primary-opacity-008);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.styleelevatedStateenabled,
+.styleelevatedStatehovered {
+  position: absolute;
+  top: 39.75rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-surface-container-low);
+  overflow: hidden;
+  flex-direction: row;
+}
+.styleelevatedStatehovered {
+  left: 10.75rem;
+  box-shadow: var(--m3-elevation-light-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styleelevatedStateenabled {
+  left: 2.5rem;
+  box-shadow: var(--m3-elevation-light-1);
+}
+.stateLayer16,
+.styleelevatedStatedisabled1,
+.styleelevatedStateenabled {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styleelevatedStatedisabled1 {
+  position: absolute;
+  top: 36.25rem;
+  left: 34.44rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-light-on-surface);
+}
+.stateLayer16 {
+  background-color: var(--m3-state-layers-light-primary-opacity-012);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.styleelevatedStatepressed1 {
+  position: absolute;
+  top: 36.25rem;
+  left: 26.56rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-surface-container-low);
+  box-shadow: var(--m3-elevation-light-1);
+  overflow: hidden;
+  flex-direction: column;
+}
+.stateLayer18,
+.styleelevatedStatefocused1,
+.styleelevatedStatepressed1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styleelevatedStatefocused1 {
+  position: absolute;
+  top: 36.25rem;
+  left: 18.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-surface-container-low);
+  box-shadow: var(--m3-elevation-light-1);
+  overflow: hidden;
+  flex-direction: column;
+}
+.stateLayer18 {
+  background-color: var(--m3-state-layers-light-primary-opacity-008);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.styleelevatedStateenabled1,
+.styleelevatedStatehovered1 {
+  position: absolute;
+  top: 36.25rem;
+  left: 10.38rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-surface-container-low);
+  box-shadow: var(--m3-elevation-light-2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.styleelevatedStateenabled1 {
+  left: 2.5rem;
+  box-shadow: var(--m3-elevation-light-1);
+}
+.stateLayer20 {
+  padding: var(--padding-3xs) var(--padding-base) var(--padding-3xs)
+    var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.stateLayer20,
+.stateLayer21,
+.styletextStatedisabledSh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.styletextStatedisabledSh {
+  position: absolute;
+  top: 29rem;
+  left: 35.75rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  color: var(--m3-sys-light-on-surface);
+}
+.stateLayer21 {
+  background-color: var(--m3-state-layers-light-primary-opacity-012);
+  padding: var(--padding-3xs) var(--padding-base) var(--padding-3xs)
+    var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.styletextStatefocusedSho,
+.styletextStatepressedSho {
+  position: absolute;
+  top: 29rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.styletextStatepressedSho {
+  left: 27.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.styletextStatefocusedSho {
+  left: 19.13rem;
+}
+.stateLayer23,
+.styletextStateenabledSho,
+.styletextStatefocusedSho,
+.styletextStatehoveredSho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer23 {
+  background-color: var(--m3-state-layers-light-primary-opacity-008);
+  padding: var(--padding-3xs) var(--padding-base) var(--padding-3xs)
+    var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.styletextStateenabledSho,
+.styletextStatehoveredSho {
+  position: absolute;
+  top: 29rem;
+  left: 10.75rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.styletextStateenabledSho {
+  left: 2.5rem;
+}
+.stateLayer25 {
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.stateLayer25,
+.stateLayer26,
+.styletextStatedisabledSh1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styletextStatedisabledSh1 {
+  position: absolute;
+  top: 25.5rem;
+  left: 34.38rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-light-on-surface);
+}
+.stateLayer26 {
+  background-color: var(--m3-state-layers-light-primary-opacity-012);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.styletextStatepressedSho1 {
+  position: absolute;
+  top: 25.5rem;
+  left: 26.44rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+}
+.stateLayer28,
+.styletextStatefocusedSho1,
+.styletextStatepressedSho1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styletextStatefocusedSho1 {
+  position: absolute;
+  top: 25.5rem;
+  left: 18.38rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+}
+.stateLayer28 {
+  background-color: var(--m3-state-layers-light-primary-opacity-008);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.styletextStateenabledSho1,
+.styletextStatehoveredSho1 {
+  position: absolute;
+  top: 25.5rem;
+  left: 10.38rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.styletextStateenabledSho1 {
+  left: 2.5rem;
+}
+.icon15 {
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+  opacity: 0.38;
+}
+.stateLayer30 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.styleoutlinedStatedisabled,
+.styleoutlinedStatepressed {
+  position: absolute;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.styleoutlinedStatedisabled {
+  top: 18.13rem;
+  left: 35.75rem;
+  border: 1px solid var(--m3-state-layers-light-on-surface-opacity-012);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--m3-sys-light-on-surface);
+}
+.styleoutlinedStatepressed {
+  left: 27.5rem;
+  border: 1px solid var(--m3-sys-light-outline);
+}
+.styleoutlinedStateenabled,
+.styleoutlinedStatefocused,
+.styleoutlinedStatehovered,
+.styleoutlinedStatepressed {
+  top: 18.13rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.styleoutlinedStatefocused {
+  position: absolute;
+  left: 19.13rem;
+  border-radius: var(--br-81xl);
+  border: 1px solid var(--m3-sys-light-primary);
+  overflow: hidden;
+}
+.styleoutlinedStateenabled,
+.styleoutlinedStatehovered {
+  border: 1px solid var(--m3-sys-light-outline);
+}
+.styleoutlinedStatehovered {
+  position: absolute;
+  left: 10.75rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.styleoutlinedStateenabled {
+  left: 2.5rem;
+}
+.styleoutlinedStatedisabled1,
+.styleoutlinedStateenabled,
+.styleoutlinedStatepressed1 {
+  position: absolute;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.styleoutlinedStatedisabled1 {
+  top: 14.75rem;
+  left: 34.44rem;
+  border: 1px solid var(--m3-state-layers-light-on-surface-opacity-012);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--m3-sys-light-on-surface);
+}
+.styleoutlinedStatepressed1 {
+  left: 26.56rem;
+  border: 1px solid var(--m3-sys-light-outline);
+}
+.styleoutlinedStatefocused1,
+.styleoutlinedStatehovered1,
+.styleoutlinedStatepressed1 {
+  top: 14.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.styleoutlinedStatefocused1 {
+  position: absolute;
+  left: 18.5rem;
+  border-radius: var(--br-81xl);
+  border: 1px solid var(--m3-sys-light-primary);
+  overflow: hidden;
+}
+.styleoutlinedStatehovered1 {
+  left: 10.38rem;
+  border: 1px solid var(--m3-sys-light-outline);
+}
+.stylefilledStatedisabled,
+.styleoutlinedStateenabled1,
+.styleoutlinedStatehovered1 {
+  position: absolute;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.styleoutlinedStateenabled1 {
+  top: 14.75rem;
+  left: 2.5rem;
+  border: 1px solid var(--m3-sys-light-outline);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.stylefilledStatedisabled {
+  top: 7.5rem;
+  left: 35.75rem;
+  color: var(--m3-sys-light-on-surface);
+}
+.stateLayer41,
+.stylefilledStatedisabled,
+.stylefilledStatepressedS {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer41 {
+  background-color: var(--m3-state-layers-light-on-primary-opacity-012);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.stylefilledStatepressedS {
+  position: absolute;
+  top: 7.5rem;
+  left: 27.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-primary);
+  overflow: hidden;
+  color: var(--m3-sys-light-on-error);
+}
+.stateLayer42 {
+  border-radius: var(--br-9xs);
+  background-color: var(--m3-state-layers-light-on-primary-opacity-012);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.stateLayer42,
+.stateLayer43,
+.stylefilledStatefocusedS {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stylefilledStatefocusedS {
+  position: absolute;
+  top: 7.5rem;
+  left: 19.13rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-primary);
+  color: var(--m3-sys-light-on-error);
+}
+.stateLayer43 {
+  border-radius: var(--br-9xs);
+  background-color: var(--m3-state-layers-light-on-primary-opacity-008);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.stylefilledStateenabledS,
+.stylefilledStatehoveredS {
+  position: absolute;
+  top: 7.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-primary);
+  flex-direction: row;
+  color: var(--m3-sys-light-on-error);
+}
+.stylefilledStatehoveredS {
+  left: 10.75rem;
+  box-shadow: var(--m3-elevation-light-1);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stylefilledStateenabledS {
+  left: 2.5rem;
+}
+.stateLayer46,
+.stylefilledStatedisabled1,
+.stylefilledStateenabledS {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stylefilledStatedisabled1 {
+  position: absolute;
+  top: 4rem;
+  left: 34.44rem;
+  border-radius: var(--br-81xl);
+  flex-direction: column;
+  color: var(--m3-sys-light-on-surface);
+}
+.stateLayer46 {
+  background-color: var(--m3-state-layers-light-on-primary-opacity-012);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.stylefilledStatepressedS1 {
+  position: absolute;
+  top: 4rem;
+  left: 26.56rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-primary);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-light-on-error);
+}
+.stateLayer48,
+.stylefilledStatefocusedS1,
+.stylefilledStatepressedS1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stylefilledStatefocusedS1 {
+  position: absolute;
+  top: 4rem;
+  left: 18.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-primary);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-light-on-error);
+}
+.stateLayer48 {
+  background-color: var(--m3-state-layers-light-on-primary-opacity-008);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.stylefilledStateenabledS1,
+.stylefilledStatehoveredS1 {
+  position: absolute;
+  top: 4rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-primary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--m3-sys-light-on-error);
+}
+.stylefilledStatehoveredS1 {
+  left: 10.38rem;
+  box-shadow: var(--m3-elevation-light-1);
+}
+.stylefilledStateenabledS1 {
+  left: 2.5rem;
+}
+.button {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-surface);
+  border: 1px solid var(--m3-sys-dark-on-surface-variant);
+  box-sizing: border-box;
+  width: 45.88rem;
+  height: 55.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.label,
+.label1 {
+  position: absolute;
+}
+.label {
+  top: 10.81rem;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: 1.5rem;
+  font-weight: 500;
+  display: inline-block;
+  width: 6.63rem;
+  height: 1.44rem;
+}
+.label1 {
+  top: 0;
+  text-align: center;
+}
+.label1,
+.label2,
+.label3 {
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.label2 {
+  position: absolute;
+  top: 21.5rem;
+}
+.label3 {
+  top: 32.25rem;
+}
+.label3,
+.label4,
+.labels {
+  position: absolute;
+}
+.label4 {
+  top: 43rem;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.labels {
+  margin: 0 !important;
+  top: 1.5rem;
+  left: 2.5rem;
+  width: 6.69rem;
+  height: 44.5rem;
+  z-index: 1;
+  text-align: left;
+  color: var(--m3-black);
+}
+.lightScheme {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.stateLayer50 {
+  background-color: var(--m3-state-layers-dark-on-surface-opacity-012);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.stateLayer50,
+.stateLayer51,
+.styletonalStatedisabledS2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.styletonalStatedisabledS2 {
+  position: absolute;
+  top: 50.5rem;
+  left: 35.94rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  color: var(--m3-sys-dark-on-surface);
+}
+.stateLayer51 {
+  background-color: var(
+    --m3-state-layers-dark-on-secondary-container-opacity-012
+  );
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.styletonalStatefocusedSh2,
+.styletonalStatepressedSh2 {
+  position: absolute;
+  top: 50.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-secondary-container);
+  overflow: hidden;
+  color: var(--m3-sys-dark-on-secondary-container);
+}
+.styletonalStatepressedSh2 {
+  left: 27.69rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.styletonalStatefocusedSh2 {
+  left: 19.25rem;
+}
+.stateLayer53,
+.styletonalStateenabledSh2,
+.styletonalStatefocusedSh2,
+.styletonalStatehoveredSh2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer53 {
+  background-color: var(
+    --m3-state-layers-dark-on-secondary-container-opacity-008
+  );
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.styletonalStateenabledSh2,
+.styletonalStatehoveredSh2 {
+  position: absolute;
+  top: 50.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-secondary-container);
+  overflow: hidden;
+  color: var(--m3-sys-dark-on-secondary-container);
+}
+.styletonalStatehoveredSh2 {
+  left: 10.75rem;
+  box-shadow: var(--m3-elevation-dark-1);
+}
+.styletonalStateenabledSh2 {
+  left: 2.5rem;
+}
+.stateLayer55 {
+  background-color: var(--m3-state-layers-dark-on-surface-opacity-012);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.stateLayer55,
+.stateLayer56,
+.styletonalStatedisabledS3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styletonalStatedisabledS3 {
+  position: absolute;
+  top: 47rem;
+  left: 34.44rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-dark-on-surface);
+}
+.stateLayer56 {
+  background-color: var(
+    --m3-state-layers-dark-on-secondary-container-opacity-012
+  );
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.styletonalStatepressedSh3 {
+  position: absolute;
+  top: 47rem;
+  left: 26.56rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-secondary-container);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-dark-on-secondary-container);
+}
+.stateLayer58,
+.styletonalStatefocusedSh3,
+.styletonalStatepressedSh3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styletonalStatefocusedSh3 {
+  position: absolute;
+  top: 47rem;
+  left: 18.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-secondary-container);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-dark-on-secondary-container);
+}
+.stateLayer58 {
+  background-color: var(
+    --m3-state-layers-dark-on-secondary-container-opacity-008
+  );
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.styletonalStateenabledSh3,
+.styletonalStatehoveredSh3 {
+  position: absolute;
+  top: 47rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-secondary-container);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--m3-sys-dark-on-secondary-container);
+}
+.styletonalStatehoveredSh3 {
+  left: 10.38rem;
+  box-shadow: var(--m3-elevation-dark-1);
+}
+.styletonalStateenabledSh3 {
+  left: 2.5rem;
+}
+.stateLayer60 {
+  background-color: var(--m3-state-layers-dark-on-surface-opacity-012);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.stateLayer61,
+.styleelevatedStatedisabled2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.styleelevatedStatedisabled2 {
+  position: absolute;
+  top: 39.75rem;
+  left: 35.94rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  color: var(--m3-sys-dark-on-surface);
+}
+.stateLayer61 {
+  background-color: var(--m3-state-layers-dark-primary-opacity-012);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.styleelevatedStatepressed2 {
+  position: absolute;
+  top: 39.75rem;
+  left: 27.69rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-on-surface);
+  box-shadow: var(--m3-elevation-dark-1);
+  overflow: hidden;
+}
+.stateLayer63,
+.styleelevatedStatefocused2,
+.styleelevatedStatepressed2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.styleelevatedStatefocused2 {
+  position: absolute;
+  top: 39.75rem;
+  left: 19.25rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-on-surface);
+  box-shadow: var(--m3-elevation-dark-1);
+  overflow: hidden;
+}
+.stateLayer63 {
+  background-color: var(--m3-state-layers-dark-primary-opacity-008);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.styleelevatedStateenabled2,
+.styleelevatedStatehovered2 {
+  position: absolute;
+  top: 39.75rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-on-surface);
+  overflow: hidden;
+  flex-direction: row;
+}
+.styleelevatedStatehovered2 {
+  left: 10.75rem;
+  box-shadow: var(--m3-elevation-dark-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styleelevatedStateenabled2 {
+  left: 2.5rem;
+  box-shadow: var(--m3-elevation-dark-1);
+}
+.stateLayer66,
+.styleelevatedStatedisabled3,
+.styleelevatedStateenabled2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styleelevatedStatedisabled3 {
+  position: absolute;
+  top: 36.25rem;
+  left: 34.44rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-dark-on-surface);
+}
+.stateLayer66 {
+  background-color: var(--m3-state-layers-dark-primary-opacity-012);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.styleelevatedStatefocused3,
+.styleelevatedStatepressed3 {
+  position: absolute;
+  top: 36.25rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-on-surface);
+  box-shadow: var(--m3-elevation-dark-1);
+  overflow: hidden;
+  flex-direction: column;
+}
+.styleelevatedStatepressed3 {
+  left: 26.56rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styleelevatedStatefocused3 {
+  left: 18.5rem;
+}
+.stateLayer68,
+.styleelevatedStatefocused3,
+.styleelevatedStatehovered3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer68 {
+  background-color: var(--m3-state-layers-dark-primary-opacity-008);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.styleelevatedStatehovered3 {
+  top: 36.25rem;
+  left: 10.38rem;
+  background-color: var(--m3-sys-light-on-surface);
+  box-shadow: var(--m3-elevation-dark-2);
+  flex-direction: column;
+}
+.styleelevatedStateenabled3,
+.styleelevatedStatehovered3,
+.styletextStatedisabledSh2 {
+  position: absolute;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.styleelevatedStateenabled3 {
+  top: 36.25rem;
+  left: 2.5rem;
+  background-color: var(--m3-sys-light-on-surface);
+  box-shadow: var(--m3-elevation-dark-1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.styletextStatedisabledSh2 {
+  top: 29rem;
+  left: 35.94rem;
+  color: var(--m3-sys-dark-on-surface);
+}
+.stateLayer71,
+.styletextStatedisabledSh2,
+.styletextStatefocusedSho2,
+.styletextStatepressedSho2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer71 {
+  background-color: var(--m3-state-layers-dark-primary-opacity-012);
+  padding: var(--padding-3xs) var(--padding-base) var(--padding-3xs)
+    var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.styletextStatefocusedSho2,
+.styletextStatepressedSho2 {
+  position: absolute;
+  top: 29rem;
+  left: 27.69rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.styletextStatefocusedSho2 {
+  left: 19.25rem;
+}
+.stateLayer73 {
+  background-color: var(--m3-state-layers-dark-primary-opacity-008);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-base) var(--padding-3xs)
+    var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.stateLayer73,
+.stateLayer76,
+.styletextStatedisabledSh3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styletextStatedisabledSh3 {
+  position: absolute;
+  top: 25.5rem;
+  left: 34.44rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-dark-on-surface);
+}
+.stateLayer76 {
+  background-color: var(--m3-state-layers-dark-primary-opacity-012);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.styletextStatepressedSho3 {
+  position: absolute;
+  top: 25.5rem;
+  left: 26.56rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+}
+.stateLayer78,
+.styletextStatefocusedSho3,
+.styletextStatepressedSho3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styletextStatefocusedSho3 {
+  position: absolute;
+  top: 25.5rem;
+  left: 18.5rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+}
+.stateLayer78 {
+  background-color: var(--m3-state-layers-dark-primary-opacity-008);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.styleoutlinedStatedisabled2,
+.styleoutlinedStatepressed2 {
+  position: absolute;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.styleoutlinedStatedisabled2 {
+  top: 18.25rem;
+  left: 35.94rem;
+  border: 1px solid var(--m3-state-layers-dark-on-surface-opacity-012);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--m3-sys-dark-on-surface);
+}
+.styleoutlinedStatepressed2 {
+  left: 27.69rem;
+  border: 1px solid var(--m3-sys-dark-outline);
+}
+.styleoutlinedStateenabled2,
+.styleoutlinedStatefocused2,
+.styleoutlinedStatehovered2,
+.styleoutlinedStatepressed2 {
+  top: 18.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.styleoutlinedStatefocused2 {
+  position: absolute;
+  left: 19.25rem;
+  border-radius: var(--br-81xl);
+  border: 1px solid var(--m3-sys-dark-primary);
+  overflow: hidden;
+}
+.styleoutlinedStateenabled2,
+.styleoutlinedStatehovered2 {
+  border: 1px solid var(--m3-sys-dark-outline);
+}
+.styleoutlinedStatehovered2 {
+  position: absolute;
+  left: 10.75rem;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.styleoutlinedStateenabled2 {
+  left: 2.5rem;
+}
+.styleoutlinedStatedisabled3,
+.styleoutlinedStateenabled2,
+.styleoutlinedStatepressed3 {
+  position: absolute;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.styleoutlinedStatedisabled3 {
+  top: 14.75rem;
+  left: 34.44rem;
+  border: 1px solid var(--m3-state-layers-dark-on-surface-opacity-012);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--m3-sys-dark-on-surface);
+}
+.styleoutlinedStatepressed3 {
+  left: 26.56rem;
+  border: 1px solid var(--m3-sys-dark-outline);
+}
+.styleoutlinedStatefocused3,
+.styleoutlinedStatehovered3,
+.styleoutlinedStatepressed3 {
+  top: 14.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.styleoutlinedStatefocused3 {
+  position: absolute;
+  left: 18.5rem;
+  border-radius: var(--br-81xl);
+  border: 1px solid var(--m3-sys-dark-primary);
+  overflow: hidden;
+}
+.styleoutlinedStatehovered3 {
+  left: 10.38rem;
+  border: 1px solid var(--m3-sys-dark-outline);
+}
+.stylefilledStatedisabled2,
+.styleoutlinedStateenabled3,
+.styleoutlinedStatehovered3 {
+  position: absolute;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.styleoutlinedStateenabled3 {
+  top: 14.75rem;
+  left: 2.5rem;
+  border: 1px solid var(--m3-sys-dark-outline);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.stylefilledStatedisabled2 {
+  top: 7.5rem;
+  left: 35.94rem;
+  color: var(--m3-sys-dark-on-surface);
+}
+.stateLayer91,
+.stylefilledStatedisabled2,
+.stylefilledStatepressedS2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer91 {
+  background-color: var(--m3-state-layers-dark-on-primary-opacity-012);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.stylefilledStatepressedS2 {
+  position: absolute;
+  top: 7.5rem;
+  left: 27.69rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-primary);
+  overflow: hidden;
+  color: var(--m3-sys-dark-on-primary);
+}
+.stateLayer92 {
+  border-radius: var(--br-9xs);
+  background-color: var(--m3-state-layers-dark-on-primary-opacity-012);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.stateLayer92,
+.stateLayer93,
+.stylefilledStatefocusedS2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stylefilledStatefocusedS2 {
+  position: absolute;
+  top: 7.5rem;
+  left: 19.63rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-primary);
+  color: var(--m3-sys-dark-on-primary);
+}
+.stateLayer93 {
+  border-radius: var(--br-9xs);
+  background-color: var(--m3-state-layers-dark-on-primary-opacity-008);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.stylefilledStateenabledS2,
+.stylefilledStatehoveredS2 {
+  position: absolute;
+  top: 7.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-primary);
+  flex-direction: row;
+  color: var(--m3-sys-dark-on-primary);
+}
+.stylefilledStatehoveredS2 {
+  left: 10.75rem;
+  box-shadow: var(--m3-elevation-dark-1);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stylefilledStateenabledS2 {
+  left: 2.5rem;
+}
+.stateLayer96,
+.stylefilledStatedisabled3,
+.stylefilledStateenabledS2 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stylefilledStatedisabled3 {
+  position: absolute;
+  top: 4rem;
+  left: 34.38rem;
+  border-radius: var(--br-81xl);
+  flex-direction: column;
+  color: var(--m3-sys-dark-on-surface);
+}
+.stateLayer96 {
+  background-color: var(--m3-state-layers-dark-on-primary-opacity-012);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.stylefilledStatepressedS3 {
+  position: absolute;
+  top: 4rem;
+  left: 26.44rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-primary);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-dark-on-primary);
+}
+.stateLayer98,
+.stylefilledStatefocusedS3,
+.stylefilledStatepressedS3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stylefilledStatefocusedS3 {
+  position: absolute;
+  top: 4rem;
+  left: 18.38rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-primary);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--m3-sys-dark-on-primary);
+}
+.stateLayer98 {
+  background-color: var(--m3-state-layers-dark-on-primary-opacity-008);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.stylefilledStateenabledS3,
+.stylefilledStatehoveredS3 {
+  position: absolute;
+  top: 4rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-primary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--m3-sys-dark-on-primary);
+}
+.stylefilledStatehoveredS3 {
+  left: 10.38rem;
+  box-shadow: var(--m3-elevation-dark-1);
+}
+.stylefilledStateenabledS3 {
+  left: 2.5rem;
+}
+.buttonDark {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-dark-surface);
+  width: 46.06rem;
+  height: 55.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.label6,
+.label8,
+.label9 {
+  position: absolute;
+  top: 10.75rem;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.label8,
+.label9 {
+  top: 32.25rem;
+  display: inline-block;
+  width: 7.88rem;
+}
+.label9 {
+  top: 42.94rem;
+  width: 5.44rem;
+  height: 1.56rem;
+}
+.labels1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 1.5rem;
+  left: 2.5rem;
+  width: 7.88rem;
+  height: 44.5rem;
+  z-index: 1;
+  text-align: left;
+  color: var(--m3-sys-light-on-error);
+}
+.darkScheme {
+  flex-direction: row;
+  position: relative;
+  color: var(--m3-sys-dark-primary);
+}
+.buttons,
+.components,
+.darkScheme {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.components {
+  flex-direction: row;
+  padding: var(--padding-51xl);
+  gap: var(--gap-21xl);
+  font-size: var(--m3-label-large-prominent-size);
+  color: var(--m3-sys-light-primary);
+}
+.buttons {
+  position: relative;
+  border-radius: var(--br-41xl) var(--br-41xl) var(--br-base) var(--br-base);
+  background-color: var(--m3-sys-light-on-error);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--m3-black);
+  font-family: var(--m3-headline-medium);
+}

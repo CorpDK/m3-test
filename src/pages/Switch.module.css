@@ -1,0 +1,866 @@
+.logoIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+.componentName,
+.link,
+.logoIcon {
+  position: relative;
+}
+.link {
+  font-size: var(--m3-headline-small-size);
+  text-decoration: underline;
+  line-height: 2rem;
+  color: var(--m3-sys-light-primary);
+}
+.definition {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 1.5rem;
+  text-align: left;
+}
+.header,
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.header {
+  background-color: var(--m3-sys-dark-on-surface);
+  overflow: hidden;
+  padding: var(--padding-33xl) var(--padding-33xl) var(--padding-51xl);
+  gap: var(--gap-41xl);
+}
+.track {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-state-layers-light-surface-variant-opacity-012);
+  border: 2px solid var(--m3-state-layers-light-on-surface-opacity-012);
+  box-sizing: border-box;
+}
+.handle,
+.iconsclose24px {
+  position: absolute;
+  opacity: 0.38;
+}
+.handle {
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-on-surface);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.iconsclose24px {
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  width: 1rem;
+  height: 1rem;
+}
+.handleContainer {
+  position: absolute;
+  top: calc(50% - 24px);
+  left: -0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+.selectedfalseStatedisabled {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 84.04%;
+  right: 5.6%;
+  bottom: 7.45%;
+  left: 84.18%;
+}
+.handle1,
+.stateLayer,
+.track1 {
+  position: absolute;
+  border-radius: var(--br-81xl);
+}
+.track1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--m3-sys-dark-on-surface);
+  border: 2px solid var(--m3-sys-light-outline);
+  box-sizing: border-box;
+}
+.handle1,
+.stateLayer {
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  background-color: var(--m3-state-layers-light-on-surface-opacity-012);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.handle1 {
+  top: calc(50% - 14px);
+  left: calc(50% - 14px);
+  background-color: var(--m3-sys-light-on-surface-variant);
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.iconsclose24px1 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  width: 1rem;
+  height: 1rem;
+}
+.selectedfalseStatepressed {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 84.04%;
+  right: 25.25%;
+  bottom: 7.45%;
+  left: 64.54%;
+}
+.handle2 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-on-surface-variant);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.selectedfalseStatefocused {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 84.04%;
+  right: 44.89%;
+  bottom: 7.45%;
+  left: 44.89%;
+}
+.stateLayer2 {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-state-layers-light-on-surface-opacity-008);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.selectedfalseStatehovered {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 84.04%;
+  right: 64.54%;
+  bottom: 7.45%;
+  left: 25.25%;
+}
+.handle4 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-outline);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.handleContainer4 {
+  position: absolute;
+  top: -0.5rem;
+  left: -0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+.selectedfalseStateenabled {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 84.04%;
+  right: 84.18%;
+  bottom: 7.45%;
+  left: 5.6%;
+}
+.handle5 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-on-surface);
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.38;
+}
+.selectedfalseStatedisabled1,
+.selectedfalseStatepressed1 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 58.51%;
+  right: 5.6%;
+  bottom: 32.98%;
+  left: 84.18%;
+}
+.selectedfalseStatepressed1 {
+  right: 25.25%;
+  left: 64.54%;
+}
+.handle7 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-on-surface-variant);
+  width: 1rem;
+  height: 1rem;
+}
+.selectedfalseStatefocused1,
+.selectedfalseStatehovered1 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 58.51%;
+  right: 44.89%;
+  bottom: 32.98%;
+  left: 44.89%;
+}
+.selectedfalseStatehovered1 {
+  right: 64.54%;
+  left: 25.25%;
+}
+.handle9 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-outline);
+  width: 1rem;
+  height: 1rem;
+}
+.selectedfalseStateenabled1,
+.track10 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 58.51%;
+  right: 84.18%;
+  bottom: 32.98%;
+  left: 5.6%;
+}
+.track10 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-state-layers-light-on-surface-opacity-012);
+}
+.handle10 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  border-radius: var(--br-4xl);
+  background-color: var(--m3-sys-light-surface);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.handleContainer10 {
+  position: absolute;
+  top: calc(50% - 24px);
+  right: -0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+.selectedtrueStatedisabled {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 32.98%;
+  right: 5.6%;
+  bottom: 58.51%;
+  left: 84.18%;
+}
+.handle11,
+.stateLayer6,
+.track11 {
+  position: absolute;
+  border-radius: var(--br-81xl);
+}
+.track11 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--m3-sys-light-primary);
+}
+.handle11,
+.stateLayer6 {
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  background-color: var(--m3-state-layers-light-primary-opacity-012);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.handle11 {
+  top: calc(50% - 14px);
+  left: calc(50% - 14px);
+  border-radius: var(--br-4xl);
+  background-color: var(--m3-sys-dark-on-primary-container);
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.selectedtrueStatepressed {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 32.98%;
+  right: 25.25%;
+  bottom: 58.51%;
+  left: 64.54%;
+}
+.handle12 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  border-radius: var(--br-4xl);
+  background-color: var(--m3-sys-dark-on-primary-container);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.selectedtrueStatefocused {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 32.98%;
+  right: 44.89%;
+  bottom: 58.51%;
+  left: 44.89%;
+}
+.stateLayer8 {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-state-layers-light-primary-opacity-008);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.selectedtrueStatehovered {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 32.98%;
+  right: 64.54%;
+  bottom: 58.51%;
+  left: 25.25%;
+}
+.handle14 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  border-radius: var(--br-4xl);
+  background-color: var(--m3-sys-light-on-error);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.selectedtrueStateenabled {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 32.98%;
+  right: 84.18%;
+  bottom: 58.51%;
+  left: 5.6%;
+}
+.selectedtrueStatedisabled1,
+.selectedtrueStatepressed1 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 7.45%;
+  right: 5.6%;
+  bottom: 84.04%;
+  left: 84.18%;
+}
+.selectedtrueStatepressed1 {
+  right: 25.25%;
+  left: 64.54%;
+}
+.selectedtrueStateenabled1,
+.selectedtrueStatefocused1,
+.selectedtrueStatehovered1 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.22%;
+  top: 7.45%;
+  right: 44.89%;
+  bottom: 84.04%;
+  left: 44.89%;
+}
+.selectedtrueStateenabled1,
+.selectedtrueStatehovered1 {
+  right: 64.54%;
+  left: 25.25%;
+}
+.selectedtrueStateenabled1 {
+  right: 84.18%;
+  left: 5.6%;
+}
+.lightScheme,
+.switch1 {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-surface);
+}
+.switch1 {
+  position: relative;
+  width: 31.81rem;
+  height: 23.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lightScheme {
+  border: 1px solid var(--m3-sys-dark-on-surface-variant);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.handle20,
+.track20 {
+  position: absolute;
+  border-radius: var(--br-81xl);
+}
+.track20 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--m3-state-layers-dark-surface-variant-opacity-012);
+  border: 2px solid var(--m3-state-layers-dark-on-surface-opacity-012);
+  box-sizing: border-box;
+}
+.handle20 {
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  background-color: var(--m3-sys-dark-on-surface);
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 0.38;
+}
+.selectedfalseStatedisabled2 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 84.04%;
+  right: 5.51%;
+  bottom: 7.45%;
+  left: 84.25%;
+}
+.handle21,
+.stateLayer12,
+.track21 {
+  position: absolute;
+  border-radius: var(--br-81xl);
+}
+.track21 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--m3-sys-dark-surface-container-highest);
+  border: 2px solid var(--m3-sys-dark-outline);
+  box-sizing: border-box;
+}
+.handle21,
+.stateLayer12 {
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  background-color: var(--m3-state-layers-dark-on-surface-opacity-012);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.handle21 {
+  top: calc(50% - 14px);
+  left: calc(50% - 14px);
+  background-color: var(--m3-sys-dark-on-surface-variant);
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.selectedfalseStatepressed2 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 84.04%;
+  right: 25.2%;
+  bottom: 7.45%;
+  left: 64.57%;
+}
+.handle22 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-surface-variant);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.selectedfalseStatefocused2 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 84.04%;
+  right: 44.88%;
+  bottom: 7.45%;
+  left: 44.88%;
+}
+.stateLayer14 {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-state-layers-dark-on-surface-opacity-008);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.selectedfalseStatehovered2 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 84.04%;
+  right: 64.57%;
+  bottom: 7.45%;
+  left: 25.2%;
+}
+.handle24 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-outline);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.selectedfalseStateenabled2 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 84.04%;
+  right: 84.25%;
+  bottom: 7.45%;
+  left: 5.51%;
+}
+.handle25 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-surface);
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.38;
+}
+.selectedfalseStatedisabled3,
+.selectedfalseStatepressed3 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 58.51%;
+  right: 5.51%;
+  bottom: 32.98%;
+  left: 84.25%;
+}
+.selectedfalseStatepressed3 {
+  right: 25.2%;
+  left: 64.57%;
+}
+.handle27 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-on-surface-variant);
+  width: 1rem;
+  height: 1rem;
+}
+.selectedfalseStatefocused3,
+.selectedfalseStatehovered3 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 58.51%;
+  right: 44.88%;
+  bottom: 32.98%;
+  left: 44.88%;
+}
+.selectedfalseStatehovered3 {
+  right: 64.57%;
+  left: 25.2%;
+}
+.handle29 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-dark-outline);
+  width: 1rem;
+  height: 1rem;
+}
+.selectedfalseStateenabled3,
+.track30 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 58.51%;
+  right: 84.25%;
+  bottom: 32.98%;
+  left: 5.51%;
+}
+.track30 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-state-layers-dark-on-surface-opacity-012);
+}
+.handle30 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  border-radius: var(--br-4xl);
+  background-color: var(--m3-sys-dark-surface);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.selectedtrueStatedisabled2 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 32.98%;
+  right: 5.51%;
+  bottom: 58.51%;
+  left: 84.25%;
+}
+.handle31,
+.stateLayer18,
+.track31 {
+  position: absolute;
+  border-radius: var(--br-81xl);
+}
+.track31 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--m3-sys-dark-primary);
+}
+.handle31,
+.stateLayer18 {
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  background-color: var(--m3-state-layers-dark-primary-opacity-012);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.handle31 {
+  top: calc(50% - 14px);
+  left: calc(50% - 14px);
+  border-radius: var(--br-4xl);
+  background-color: var(--m3-sys-dark-primary-container);
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.selectedtrueStatepressed2 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 32.98%;
+  right: 25.2%;
+  bottom: 58.51%;
+  left: 64.57%;
+}
+.handle32 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  border-radius: var(--br-4xl);
+  background-color: var(--m3-sys-dark-primary-container);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.selectedtrueStatefocused2 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 32.98%;
+  right: 44.88%;
+  bottom: 58.51%;
+  left: 44.88%;
+}
+.stateLayer20 {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-state-layers-dark-primary-opacity-008);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.selectedtrueStatehovered2 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 32.98%;
+  right: 64.57%;
+  bottom: 58.51%;
+  left: 25.2%;
+}
+.handle34 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  border-radius: var(--br-4xl);
+  background-color: var(--m3-sys-dark-on-primary);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.selectedtrueStatedisabled3,
+.selectedtrueStateenabled2 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 32.98%;
+  right: 84.25%;
+  bottom: 58.51%;
+  left: 5.51%;
+}
+.selectedtrueStatedisabled3 {
+  top: 7.45%;
+  right: 5.51%;
+  bottom: 84.04%;
+  left: 84.25%;
+}
+.handle36 {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: calc(50% - 15px);
+  border-radius: var(--br-4xl);
+  background-color: var(--m3-sys-dark-primary-container);
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.handleContainer36 {
+  position: absolute;
+  top: calc(50% - 24px);
+  right: -0.56rem;
+  width: 3rem;
+  height: 3rem;
+}
+.selectedtrueStatepressed3 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 7.45%;
+  right: 25.2%;
+  bottom: 84.04%;
+  left: 64.57%;
+}
+.handle37 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 13px);
+  border-radius: var(--br-4xl);
+  background-color: var(--m3-sys-dark-primary-container);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.selectedtrueStateenabled3,
+.selectedtrueStatefocused3,
+.selectedtrueStatehovered3 {
+  position: absolute;
+  height: 8.51%;
+  width: 10.24%;
+  top: 7.45%;
+  right: 44.88%;
+  bottom: 84.04%;
+  left: 44.88%;
+}
+.selectedtrueStateenabled3,
+.selectedtrueStatehovered3 {
+  right: 64.57%;
+  left: 25.2%;
+}
+.selectedtrueStateenabled3 {
+  right: 84.25%;
+  left: 5.51%;
+}
+.darkScheme,
+.switchDark {
+  background-color: var(--m3-sys-dark-surface);
+}
+.switchDark {
+  position: relative;
+  border-radius: var(--br-8xs);
+  width: 31.75rem;
+  height: 23.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.darkScheme {
+  border-radius: var(--br-base);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.components,
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.components {
+  flex-direction: row;
+  padding: var(--padding-51xl);
+  gap: var(--gap-21xl);
+}
+.switch {
+  position: relative;
+  border-radius: var(--br-41xl) var(--br-41xl) var(--br-base) var(--br-base);
+  background-color: var(--m3-sys-light-on-error);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--m3-black);
+  font-family: var(--m3-headline-medium);
+}

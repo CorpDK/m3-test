@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --m3-headline-medium: Roboto;
+
+  /* font sizes */
+  --m3-label-medium-size: 0.75rem;
+  --m3-title-medium-size: 1rem;
+  --font-size-lg: 1.13rem;
+  --m3-headline-small-size: 1.5rem;
+  --font-size-61xl: 5rem;
+  --m3-label-large-prominent-size: 0.88rem;
+  --m3-headline-medium-size: 1.75rem;
+  --m3-title-large-size: 1.38rem;
+  --m3-label-small-size: 0.69rem;
+  --m3-display-medium-size: 2.81rem;
+  --m3-display-large-size: 3.56rem;
+  --font-size-17xl: 2.25rem;
+  --m3-headline-large-size: 2rem;
+
+  /* Colors */
+  --m3-sys-light-on-error: #fff;
+  --m3-sys-dark-outline: #938f99;
+  --m3-sys-light-outline: #79747e;
+  --m3-sys-dark-surface-container-high: #2b2930;
+  --m3-sys-dark-surface-container: #211f26;
+  --m3-sys-light-on-tertiary-container: #31111d;
+  --m3-sys-light-on-secondary-container: #1d192b;
+  --m3-sys-light-on-surface: #1d1b20;
+  --m3-sys-dark-surface: #141218;
+  --m3-state-layers-light-on-secondary-container-opacity-016: rgba(
+    29,
+    25,
+    43,
+    0.16
+  );
+  --m3-state-layers-light-on-tertiary-container-opacity-012: rgba(
+    49,
+    17,
+    29,
+    0.12
+  );
+  --m3-state-layers-light-on-tertiary-container-opacity-008: rgba(
+    49,
+    17,
+    29,
+    0.08
+  );
+  --m3-state-layers-light-on-primary-opacity-008: rgba(255, 255, 255, 0.08);
+  --m3-state-layers-light-on-surface-opacity-016: rgba(29, 27, 32, 0.16);
+  --m3-state-layers-light-on-primary-opacity-012: rgba(255, 255, 255, 0.12);
+  --m3-state-layers-light-on-secondary-container-opacity-012: rgba(
+    29,
+    25,
+    43,
+    0.12
+  );
+  --m3-state-layers-light-on-secondary-container-opacity-008: rgba(
+    29,
+    25,
+    43,
+    0.08
+  );
+  --m3-state-layers-light-on-surface-opacity-012: rgba(29, 27, 32, 0.12);
+  --m3-state-layers-light-outline-opacity-012: rgba(121, 116, 126, 0.12);
+  --m3-state-layers-light-on-surface-opacity-008: rgba(29, 27, 32, 0.08);
+  --m3-state-layers-dark-outline-opacity-012: rgba(147, 143, 153, 0.12);
+  --m3-sys-dark-on-surface-variant: #cac4d0;
+  --m3-state-layers-dark-on-surface-variant-opacity-016: rgba(
+    202,
+    196,
+    208,
+    0.16
+  );
+  --m3-state-layers-dark-on-surface-variant-opacity-012: rgba(
+    202,
+    196,
+    208,
+    0.12
+  );
+  --m3-state-layers-dark-on-surface-variant-opacity-008: rgba(
+    202,
+    196,
+    208,
+    0.08
+  );
+  --m3-sys-light-on-surface-variant: #49454f;
+  --m3-ref-neutral-neutral30: #48464c;
+  --m3-sys-dark-surface-container-highest: #36343b;
+  --m3-ref-neutral-variant-neutral-variant20: #322f37;
+  --m3-sys-dark-inverse-on-surface: #322f35;
+  --m3-state-layers-light-on-surface-variant-opacity-008: rgba(
+    73,
+    69,
+    79,
+    0.08
+  );
+  --m3-state-layers-dark-inverse-on-surface-opacity-012: rgba(50, 47, 53, 0.12);
+  --m3-state-layers-dark-inverse-on-surface-opacity-008: rgba(50, 47, 53, 0.08);
+  --m3-state-layers-dark-surface-variant-opacity-012: rgba(73, 69, 79, 0.12);
+  --m3-sys-dark-on-surface: #e6e0e9;
+  --color-gainsboro-100: #e6e1e5;
+  --m3-state-layers-dark-on-surface-opacity-016: rgba(230, 224, 233, 0.16);
+  --m3-state-layers-dark-on-surface-opacity-012: rgba(230, 224, 233, 0.12);
+  --m3-state-layers-dark-on-surface-opacity-008: rgba(230, 224, 233, 0.08);
+  --m3-sys-dark-primary: #d0bcff;
+  --m3-state-layers-dark-primary-opacity-012: rgba(208, 188, 255, 0.12);
+  --m3-state-layers-dark-primary-opacity-008: rgba(208, 188, 255, 0.08);
+  --m3-sys-dark-error: #f2b8b5;
+  --m3-state-layers-dark-error-opacity-012: rgba(242, 184, 181, 0.12);
+  --m3-state-layers-dark-error-opacity-008: rgba(242, 184, 181, 0.08);
+  --m3-sys-light-surface: #fef7ff;
+  --m3-sys-light-surface-container-low: #f7f2fa;
+  --m3-sys-light-inverse-on-surface: #f5eff7;
+  --m3-sys-light-surface-container: #f3edf7;
+  --m3-state-layers-light-inverse-on-surface-opacity-012: rgba(
+    245,
+    239,
+    247,
+    0.12
+  );
+  --m3-state-layers-light-inverse-on-surface-opacity-008: rgba(
+    245,
+    239,
+    247,
+    0.08
+  );
+  --m3-sys-light-primary: #6750a4;
+  --m3-sys-dark-primary-container: #4f378b;
+  --m3-state-layers-light-primary-opacity-012: rgba(103, 80, 164, 0.12);
+  --m3-state-layers-light-primary-opacity-008: rgba(103, 80, 164, 0.08);
+  --m3-sys-light-error: #b3261e;
+  --m3-state-layers-light-error-opacity-012: rgba(179, 38, 30, 0.12);
+  --m3-state-layers-light-error-opacity-008: rgba(179, 38, 30, 0.08);
+  --m3-black: #000;
+  --m3-sys-dark-on-primary: #381e72;
+  --m3-sys-light-on-primary-container: #21005d;
+  --m3-state-layers-light-on-primary-container-opacity-012: rgba(
+    33,
+    0,
+    93,
+    0.12
+  );
+  --m3-state-layers-light-on-primary-container-opacity-008: rgba(
+    33,
+    0,
+    93,
+    0.08
+  );
+  --m3-state-layers-dark-on-primary-opacity-008: rgba(56, 30, 114, 0.08);
+  --m3-state-layers-dark-on-primary-opacity-012: rgba(56, 30, 114, 0.12);
+  --m3-sys-light-surface-container-high: #ece6f0;
+  --m3-sys-dark-on-primary-container: #eaddff;
+  --m3-sys-dark-on-secondary-container: #e8def8;
+  --m3-state-layers-dark-on-secondary-container-opacity-016: rgba(
+    232,
+    222,
+    248,
+    0.16
+  );
+  --m3-state-layers-dark-on-primary-container-opacity-012: rgba(
+    234,
+    221,
+    255,
+    0.12
+  );
+  --m3-state-layers-dark-on-primary-container-opacity-008: rgba(
+    234,
+    221,
+    255,
+    0.08
+  );
+  --m3-state-layers-dark-on-secondary-container-opacity-012: rgba(
+    232,
+    222,
+    248,
+    0.12
+  );
+  --m3-state-layers-dark-on-secondary-container-opacity-008: rgba(
+    232,
+    222,
+    248,
+    0.08
+  );
+  --m3-state-layers-light-surface-variant-opacity-012: rgba(
+    231,
+    224,
+    236,
+    0.12
+  );
+  --m3-sys-dark-tertiary-container: #633b48;
+  --m3-sys-dark-secondary-container: #4a4458;
+  --m3-sys-dark-on-error: #601410;
+  --m3-sys-dark-on-tertiary-container: #ffd8e4;
+  --m3-state-layers-dark-on-tertiary-container-opacity-012: rgba(
+    255,
+    216,
+    228,
+    0.12
+  );
+  --m3-state-layers-dark-on-tertiary-container-opacity-008: rgba(
+    255,
+    216,
+    228,
+    0.08
+  );
+  --m3-ref-secondary-secondary80: #ccc2dc;
+  --m3-ref-neutral-neutral70: #aea9b1;
+
+  /* Gaps */
+  --gap-21xl: 2.5rem;
+  --gap-41xl: 3.75rem;
+  --gap-5xl: 1.5rem;
+  --gap-xl: 1.25rem;
+  --gap-5xs: 0.5rem;
+  --gap-7xs: 0.38rem;
+  --gap-11xs: 0.13rem;
+  --gap-9xs: 0.25rem;
+  --gap-xs: 0.75rem;
+  --gap-base: 1rem;
+  --gap-12xs: 0.06rem;
+  --gap-13xl: 2rem;
+  --gap-3xs: 0.63rem;
+  --gap-10xl: 1.81rem;
+  --gap-sm: 0.88rem;
+  --gap-6xs: 0.44rem;
+  --gap-17xl: 2.25rem;
+  --gap-33xl: 3.25rem;
+  --gap-8xs: 0.31rem;
+  --gap-lgi-8: 1.24rem;
+  --gap-29xl: 3rem;
+  --gap-3xl: 1.38rem;
+  --gap-257xl: 17.25rem;
+  --gap-201xl: 13.75rem;
+  --gap-145xl: 10.25rem;
+  --gap-89xl: 6.75rem;
+
+  /* Paddings */
+  --padding-51xl: 4.38rem;
+  --padding-xl: 1.25rem;
+  --padding-9xs: 0.25rem;
+  --padding-base: 1rem;
+  --padding-5xs: 0.5rem;
+  --padding-33xl: 3.25rem;
+  --padding-xs: 0.75rem;
+  --padding-sm: 0.88rem;
+  --padding-3xs: 0.63rem;
+  --padding-13xl: 2rem;
+  --padding-9xl: 1.75rem;
+  --padding-5xl: 1.5rem;
+  --padding-37xl: 3.5rem;
+  --padding-8xs: 0.31rem;
+  --padding-21xl: 2.5rem;
+  --padding-46xl: 4.06rem;
+  --padding-lg: 1.13rem;
+  --padding-25xl: 2.75rem;
+  --padding-41xl: 3.75rem;
+  --padding-2xs: 0.69rem;
+  --padding-3xl: 1.38rem;
+  --padding-7xl: 1.63rem;
+  --padding-11xl: 1.88rem;
+  --padding-7xs: 0.38rem;
+  --padding-61xl: 5rem;
+  --padding-4xs: 0.56rem;
+  --padding-53xl: 4.5rem;
+  --padding-31xl: 3.13rem;
+  --padding-17xl: 2.25rem;
+  --padding-81xl: 6.25rem;
+  --padding-105xl: 7.75rem;
+  --padding-45xl: 4rem;
+
+  /* border radiuses */
+  --br-41xl: 60px;
+  --br-base: 16px;
+  --br-9xs: 4px;
+  --br-81xl: 100px;
+  --br-8xs: 5px;
+  --br-4xl: 23px;
+  --br-9xl: 28px;
+  --br-981xl: 1000px;
+  --br-11xs: 2px;
+  --br-5xs: 8px;
+  --br-xs: 12px;
+  --br-11xl: 30px;
+  --br-481xl: 500px;
+
+  /* Effects */
+  --m3-elevation-dark-5: 0px 8px 12px 6px rgba(0, 0, 0, 0.15),
+    0px 4px 4px rgba(0, 0, 0, 0.3);
+  --m3-elevation-dark-4: 0px 6px 10px 4px rgba(0, 0, 0, 0.15),
+    0px 2px 3px rgba(0, 0, 0, 0.3);
+  --m3-elevation-dark-1: 0px 1px 3px 1px rgba(0, 0, 0, 0.15),
+    0px 1px 2px rgba(0, 0, 0, 0.3);
+  --m3-elevation-light-1: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  --m3-elevation-dark-2: 0px 2px 6px 2px rgba(0, 0, 0, 0.15),
+    0px 1px 2px rgba(0, 0, 0, 0.3);
+  --m3-elevation-light-2: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+  --m3-elevation-dark-3: 0px 4px 8px 3px rgba(0, 0, 0, 0.15),
+    0px 1px 3px rgba(0, 0, 0, 0.3);
+}

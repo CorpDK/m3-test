@@ -1,0 +1,256 @@
+.logoIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+.componentName,
+.link,
+.logoIcon {
+  position: relative;
+}
+.link {
+  font-size: var(--m3-headline-small-size);
+  text-decoration: underline;
+  line-height: 2rem;
+  color: var(--m3-sys-light-primary);
+}
+.definition {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--m3-title-medium-size);
+  letter-spacing: 0.1px;
+  line-height: 1.5rem;
+  text-align: left;
+}
+.header,
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.header {
+  background-color: var(--m3-sys-dark-on-surface);
+  overflow: hidden;
+  padding: var(--padding-33xl) var(--padding-33xl) var(--padding-51xl);
+  gap: var(--gap-41xl);
+}
+.icon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 0.38;
+}
+.stateLayer {
+  padding: var(--padding-5xs);
+}
+.container,
+.selectedfalseStatedisabled,
+.stateLayer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.selectedfalseStatedisabled {
+  position: absolute;
+  top: 5.25rem;
+  left: 25.25rem;
+  width: 3rem;
+  height: 3rem;
+}
+.icon1 {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.selectedfalseStatepressed,
+.stateLayer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer1 {
+  background-color: var(--m3-state-layers-light-primary-opacity-012);
+  padding: var(--padding-5xs);
+}
+.selectedfalseStatepressed {
+  position: absolute;
+  top: 5.25rem;
+  left: 19.25rem;
+  width: 3rem;
+  height: 3rem;
+}
+.stateLayer2 {
+  background-color: var(--m3-state-layers-light-on-surface-opacity-012);
+  padding: var(--padding-5xs);
+}
+.selectedfalseStatefocused,
+.stateLayer2,
+.stateLayer3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.selectedfalseStatefocused {
+  position: absolute;
+  top: 5.25rem;
+  left: 13.25rem;
+  width: 3rem;
+  height: 3rem;
+}
+.stateLayer3 {
+  background-color: var(--m3-state-layers-light-on-surface-opacity-008);
+  padding: var(--padding-5xs);
+}
+.selectedfalseStateenabled,
+.selectedfalseStatehovered,
+.selectedtrueStatedisabled,
+.selectedtrueStatepressed {
+  position: absolute;
+  top: 5.25rem;
+  left: 7.25rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.selectedfalseStateenabled,
+.selectedtrueStatedisabled,
+.selectedtrueStatepressed {
+  left: 1.25rem;
+}
+.selectedtrueStatedisabled,
+.selectedtrueStatepressed {
+  top: 1.25rem;
+  left: 25.25rem;
+}
+.selectedtrueStatepressed {
+  left: 19.25rem;
+}
+.selectedtrueStatefocused {
+  position: absolute;
+  top: 1.25rem;
+  left: 13.25rem;
+  width: 3rem;
+  height: 3rem;
+}
+.selectedtrueStateenabled,
+.selectedtrueStatefocused,
+.selectedtrueStatehovered,
+.stateLayer8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer8 {
+  background-color: var(--m3-state-layers-light-primary-opacity-008);
+  padding: var(--padding-5xs);
+}
+.selectedtrueStateenabled,
+.selectedtrueStatehovered {
+  position: absolute;
+  top: 1.25rem;
+  left: 7.25rem;
+  width: 3rem;
+  height: 3rem;
+}
+.selectedtrueStateenabled {
+  left: 1.25rem;
+}
+.lightScheme,
+.radioButtons1 {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-surface);
+}
+.radioButtons1 {
+  position: relative;
+  width: 29.5rem;
+  height: 9.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lightScheme {
+  border: 1px solid var(--m3-sys-dark-on-surface-variant);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stateLayer11,
+.stateLayer12,
+.stateLayer13,
+.stateLayer18 {
+  background-color: var(--m3-state-layers-dark-primary-opacity-012);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer12,
+.stateLayer13,
+.stateLayer18 {
+  background-color: var(--m3-state-layers-dark-on-surface-opacity-012);
+}
+.stateLayer13,
+.stateLayer18 {
+  background-color: var(--m3-state-layers-dark-on-surface-opacity-008);
+}
+.stateLayer18 {
+  background-color: var(--m3-state-layers-dark-primary-opacity-008);
+}
+.darkScheme,
+.radioButtonsDark {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-dark-surface);
+}
+.radioButtonsDark {
+  position: relative;
+  width: 29.5rem;
+  height: 9.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.darkScheme {
+  flex-direction: column;
+  padding: var(--padding-xl);
+}
+.components,
+.darkScheme,
+.radioButtons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.components {
+  flex-direction: row;
+  padding: var(--padding-51xl);
+  gap: var(--gap-21xl);
+}
+.radioButtons {
+  position: relative;
+  border-radius: var(--br-41xl) var(--br-41xl) var(--br-base) var(--br-base);
+  background-color: var(--m3-sys-light-on-error);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--m3-black);
+  font-family: var(--m3-headline-medium);
+}

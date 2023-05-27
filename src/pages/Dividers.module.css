@@ -1,0 +1,282 @@
+.logoIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+.componentName,
+.link,
+.logoIcon {
+  position: relative;
+}
+.link {
+  font-size: var(--m3-headline-small-size);
+  text-decoration: underline;
+  line-height: 2rem;
+  color: var(--m3-sys-light-primary);
+}
+.definition {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 1.5rem;
+  text-align: left;
+}
+.header,
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.header {
+  background-color: var(--m3-sys-dark-on-surface);
+  overflow: hidden;
+  padding: var(--padding-33xl) var(--padding-33xl) var(--padding-51xl);
+  gap: var(--gap-41xl);
+}
+.divider {
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--m3-sys-dark-on-surface-variant);
+  box-sizing: border-box;
+  width: 0.06rem;
+}
+.verticalmiddleInset {
+  left: 4.63rem;
+  padding: var(--padding-base) 0;
+  box-sizing: border-box;
+}
+.verticalfullWidth,
+.verticalinset,
+.verticalmiddleInset {
+  position: absolute;
+  top: 16.56rem;
+  width: 0.06rem;
+  height: 7.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.verticalinset {
+  left: 3rem;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.verticalfullWidth {
+  left: 1.25rem;
+}
+.divider3,
+.subheader {
+  align-self: stretch;
+  position: relative;
+}
+.divider3 {
+  border-top: 1px solid var(--m3-sys-dark-on-surface-variant);
+  box-sizing: border-box;
+  height: 0.06rem;
+}
+.subheader {
+  letter-spacing: 0.1px;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.horizontalmiddleInset,
+.horizontalwithSubhead {
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.horizontalwithSubhead {
+  position: absolute;
+  top: 9.88rem;
+  left: 1.25rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  font-size: var(--m3-label-large-prominent-size);
+  color: var(--m3-sys-light-on-surface-variant);
+}
+.horizontalmiddleInset {
+  top: 7.88rem;
+}
+.horizontalfullWidth,
+.horizontalinset,
+.horizontalmiddleInset {
+  position: absolute;
+  left: 1.25rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.horizontalinset {
+  top: 5.88rem;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.horizontalfullWidth {
+  top: 3.88rem;
+}
+.label,
+.label1 {
+  position: absolute;
+  left: 1.25rem;
+  letter-spacing: 0.15px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.label {
+  top: 1.25rem;
+  display: inline-block;
+  width: 5.54rem;
+}
+.label1 {
+  top: 13.94rem;
+}
+.container {
+  position: relative;
+  width: 23.56rem;
+  height: 25.31rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lightScheme {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-light-surface);
+  border: 1px solid var(--m3-sys-dark-on-surface-variant);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider7 {
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--m3-sys-light-on-surface-variant);
+  box-sizing: border-box;
+  width: 0.06rem;
+}
+.verticalDarkmiddleInsetDar {
+  left: 5rem;
+  padding: var(--padding-base) 0;
+  box-sizing: border-box;
+}
+.verticalDarkfullWidthDark,
+.verticalDarkinsetDark,
+.verticalDarkmiddleInsetDar {
+  position: absolute;
+  top: 16.69rem;
+  width: 0.06rem;
+  height: 7.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.verticalDarkinsetDark {
+  left: 3.31rem;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.verticalDarkfullWidthDark {
+  left: 1.63rem;
+}
+.divider10 {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--m3-sys-light-on-surface-variant);
+  box-sizing: border-box;
+  height: 0.06rem;
+}
+.horizontalDarkwithSubheadD {
+  position: absolute;
+  top: 9.94rem;
+  left: 1.25rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  font-size: var(--m3-label-large-prominent-size);
+  color: var(--m3-sys-dark-on-surface-variant);
+}
+.horizontalDarkmiddleInsetD {
+  top: 7.94rem;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.horizontalDarkfullWidthDar,
+.horizontalDarkinsetDark,
+.horizontalDarkmiddleInsetD {
+  position: absolute;
+  left: 1.25rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.horizontalDarkinsetDark {
+  top: 5.94rem;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.horizontalDarkfullWidthDar {
+  top: 3.94rem;
+}
+.label3 {
+  position: absolute;
+  top: 14rem;
+  left: 1.25rem;
+  letter-spacing: 0.15px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.darkScheme {
+  border-radius: var(--br-base);
+  background-color: var(--m3-sys-dark-surface);
+  flex-direction: column;
+  padding: var(--padding-xl);
+  color: var(--m3-sys-light-on-error);
+}
+.components,
+.darkScheme,
+.dividers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.components {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-51xl);
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--m3-title-medium-size);
+}
+.dividers {
+  position: relative;
+  border-radius: var(--br-41xl) var(--br-41xl) var(--br-base) var(--br-base);
+  background-color: var(--m3-sys-light-on-error);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--m3-black);
+  font-family: var(--m3-headline-medium);
+}
